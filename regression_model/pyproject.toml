@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "regression_model"
+version = "0.1.0"
+description = "Tito test"
+authors = ["Tito"]
+
+[tool.poetry.dependencies]
+python = "^3.6.8"
+numpy = "^1.18.1"
+pandas = "^0.25.3"
+scikit-learn = "^0.21.0"
+joblib = "^0.14.1"
+setuptools = "^41.4.0"
+wheel = "^0.33.6"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.2"
